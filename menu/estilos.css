@@ -1,0 +1,149 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 20px;
+    justify-content: center;
+    text-align: center;
+    background-image: url(../imagenes/fondo2.jpg);
+    background-size: cover;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header{
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 10vh;
+    display: flex;
+    align-items: center;
+}
+
+.menu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.logo img{
+    margin: 25px;
+    height: 100px;
+    width: auto;
+}
+
+.menu .navbar ul li{
+    position: relative;
+    float: left;
+    padding-right: 20px;
+}
+
+.menu .navbar ul li a{
+    font-size: 24px;
+    padding: 20px;
+    color: white;
+    display: block;
+    background-color: transparent;
+}
+
+.menu .navbar ul li a:hover{
+    color: lightgray;
+}
+
+#menu{
+    display: none;
+}
+
+.menu-icono{
+    width: 25px;
+}
+
+.menu label{
+    cursor: pointer;
+    display: none;
+}
+
+
+.menu-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    max-width: 800px;
+    text-align: center;
+    margin-left: 29%;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.menu-container :hover{
+    
+        box-shadow: 0 8px 15px rgba(0, 0, 0, 0.4);
+        transform: scale(1.05); 
+    
+    
+}
+
+.contenedor-titulo h1{
+    text-align: center;
+    justify-content: center;
+    font-size: 64pt;
+    color: white;
+    margin-top: 10%;
+}
+
+.cafe-item {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    justify-content: center;
+    
+}
+
+
+.cafe-item img{
+    width: 200px;
+    height: auto;
+}
+
+.cafe-item h2 {
+    margin: 0 0 10px;
+    font-size: 1.5em;
+    color: #333;
+}
+
+.cafe-item p {
+    margin: 0;
+    color: #666;
+    font-size: 0.9em;
+}
+
+
+a{
+    margin: 5%;
+    font-size: 24pt;
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+    color: lightgray;
+}

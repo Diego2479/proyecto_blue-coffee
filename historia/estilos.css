@@ -1,0 +1,150 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 20px;
+    justify-content: center;
+    text-align: center;
+    background-image: url(../imagenes/fondo2.jpg);
+    background-size: cover;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header{
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 20vh;
+    display: flex;
+    align-items: center;
+}
+
+.menu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.logo img{
+    margin: 25px;
+    height: 100px;
+    width: auto;
+}
+
+.menu .navbar ul li{
+    position: relative;
+    float: left;
+    padding-right: 20px;
+}
+
+.menu .navbar ul li a{
+    font-size: 24px;
+    padding: 20px;
+    color: white;
+    display: block;
+    background-color: transparent;
+}
+
+.menu .navbar ul li a:hover{
+    color: lightgray;
+}
+
+#menu{
+    display: none;
+}
+
+.menu-icono{
+    width: 25px;
+}
+
+.menu label{
+    cursor: pointer;
+    display: none;
+}
+
+
+.header-content h1{
+    font-size: 100px;
+    color: #6A98FA;
+}
+.container {
+    max-width: 800px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+p {
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.historia {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+}
+
+.recomendaciones {
+    background-color: #f1f1f1;
+    border-radius: 8px;
+    padding: 15px;
+    border: 1px solid #ccc;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin-bottom: 10px;
+    color: #444;
+    text-align: left;
+}
+
+strong {
+    color: #333;
+}
+
+
+a{
+    margin: 5%;
+    font-size: 24pt;
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+    color: lightgray;
+}
